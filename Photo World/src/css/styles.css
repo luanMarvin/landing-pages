@@ -191,7 +191,7 @@ header{
 }
 .img-2{
     width: 340px;
-    margin: 0 100px 120px 0;
+    margin: 0 100px 100px 0;
 }
 
 /*5 - CTA*/
@@ -201,7 +201,7 @@ header{
 }
 .CTA{
     padding: 50px 0;
-    margin: 0 0 280px 0;
+    margin: 0 0 200px 0;
     background-color: #23242A;
     box-shadow: 0px 4px 4px 0px #00000040;
     display: flex;
@@ -253,6 +253,103 @@ header{
     width: 70%;
     position: relative;
     bottom: 60px;
+    margin: 0 0 130px 0;
+}
+
+/*7 - Section 4*/
+.section-4{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 0 150px 15%;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+}
+.section-text .section-p{
+    width: 440px;
+}
+.img-4{
+    width: 90%;
+}
+.img-5{
+    width: 35%;
+}
+
+/*8 - Leadership panel*/
+.container-leadership{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 150px 0;
+}
+.container-leadership .section{
+    display: flex;
+    align-items: center;
+    width: 530px;
+    text-align: center;
+    margin: 0;
+    max-height: 210px;
+}
+.leaders-photos{
+    display: flex;
+}
+.leader-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leaders-photos img{
+    width: 70%;
+    margin: 0 0 20px 0;
+}
+.leader-card h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 0 0 5px 0;
+}
+.leader-card p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+/*9 - Google Connection*/
+.google-connection{
+    display: flex;
+    align-items: center;
+}
+.google-connection img{
+    width: 45%;
+    margin: 0 10% 0 0;
+}
+.google-connection h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    max-width: 65%;
+    margin: 0 0 55px 0;
+}
+.google-button{
+    background-color: #0E6FFF;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-image: url("../images/icons/google.svg");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 10%;
+    text-indent: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
 }
 
 /*10 - Footer*/
