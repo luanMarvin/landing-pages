@@ -1,3 +1,4 @@
+@media  screen and (min-width: 640px) {
 /*HEADER*/
 header{
     background-color: #23242A;
@@ -124,6 +125,7 @@ header{
     background-color: #FFF;
     display: flex;
     margin: 10px 0 110px 0;
+    display: none;
 }
 .left-button{
     border: none;
@@ -371,4 +373,5 @@ footer a{
     font-weight: 500;
     text-decoration: none;
     color: #000;
+}
 }
